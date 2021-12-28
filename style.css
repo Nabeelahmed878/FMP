@@ -1,0 +1,341 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+#Container{
+    width: 100%;
+}
+
+        /* Nav bar style start */
+
+
+#Nav-Bar{
+    width: 100%;
+    display: flex;
+    /* overflow: hidden;
+    position: fixed; */
+    justify-content: space-between;
+    background-color: rgb(255, 253, 253);
+}
+.nav-list{
+    width: 100%;   
+    /* background-color: blueviolet; */
+}
+.nav-list ul{
+    list-style: none;
+    margin-top: 35px;
+}
+.nav-list ul a{
+    text-decoration: none;
+    color: #151616
+}
+.nav-list ul a:hover{
+    color: #19a1d6;
+}
+.nav-list ul li{
+    font-size: 1.7vh;
+    font-weight: bolder;
+    display: inline;
+    text-align: center;
+    margin: 10px;
+    margin-left: 30px;
+}
+.logo-image{
+    width: 100px;
+    height: 100px;
+}
+
+.nav-list-1{
+    width: 100%;
+    /* background-color: coral; */
+}
+
+.nav-list-1 button{
+    width: 90px;
+    height: 40px;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 40px;
+    border-radius: 25px;
+    border: 1px solid #131414;
+    color: #151616
+}
+.nav-list-1 button:hover{
+    color: #19a1d6;
+    border: 1px solid #19a1d6;
+
+}
+        /* Nav bar style ends */
+
+
+
+#Main-Section{
+    width: 100%;
+}
+.Banner-image{
+    width: 100%;
+}
+.Banner-image img{
+    width: 100%;
+}
+
+        /* Chemisrty Section Style Start */
+
+
+.Chemistry{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}  
+.Learn{
+    color: #19a1d6;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 2.7vw;
+}
+.Section-Organic{
+    width: 100%;
+}
+.Section-Organic img{
+    width: 90%;
+    margin-top: 40px;
+    margin-left: 20px;
+    opacity: 0.7;
+
+}
+.Section-inorganic{
+    width: 100%;
+    
+}
+.Section-inorganic img{
+    width: 90%;
+    margin-top: 40px;
+    opacity: 0.7;
+}
+.Section-Organic img:hover{
+    opacity: 1;
+    cursor: pointer;
+
+}
+.Section-inorganic img:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+        /* Chemisrty Section style End */
+
+
+        /* Learn Section style start */
+
+
+#Chem-learn{
+    width: 100%;
+    /* display: flex; */
+}
+
+.learn-organic{
+    width: 100%;
+    margin-top: 40px;
+}
+
+.organic-topic-1{
+    width: 100%;
+    margin-top: 20px;
+}
+.learn-inorganic{
+    width: 100%;
+    margin-top: 40px;
+
+}
+.inorganic-topic-1{
+    width: 100%;
+    margin-top: 20px;
+}
+        /* Learn section style End */
+
+
+        /* PastPapers section style start */
+
+#Pastpapers{
+    width: 100%;
+    margin-top: 40px;
+    /* height: 400px; */
+}
+/* .section-pastpapers{
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.pp-1{
+    width: 40%;
+    height: 400px;
+    background-color: #19a1d6;
+}
+.pp-2{
+    width: 60%;
+    background-color: wheat;
+} */
+
+
+
+
+
+        /* PastPapers section style End */
+
+#Facts{
+    width: 100%;
+    margin-top: 40px;
+}
+.section-facts{
+    width: 100%;
+    /* height: 400px; */
+}
+
+
+#Footer{
+    width: 100%;
+    /* background-image: url('./Images/slide\ 1\ \(2\).jpg'); */
+    background-position: center;
+    display: flex;
+    /* height: 80vh; */
+}
+#contact{
+    width: 40%;
+    background-color: white;
+}
+
+#contact input{
+    width: 200px;
+    height: 50px;
+    margin-top: 50px;
+    margin-left: 20px;
+    border-radius: 5px;
+    border: 1px solid #151616;
+}
+#contact #lastname {
+    width: 180px;
+}
+#contact #email{
+    width: 400px;
+    min-width: 100px;
+}
+#contact #Query{
+    width: 400px;
+    min-width: 100px;
+}
+#contact #Message{
+    width: 400px;
+    min-width: 100px;
+    height: 200px;
+}
+#contact .Ft-btn{
+    width: 400px;
+    background-color: #19a1d6;
+    color: #151616;
+}
+.Ft-details{
+    width: 60%;
+}
+.Ft-details h2 {
+    margin-top: 50px;
+    color: #19a1d6;
+}
+.Ft-details h6{
+    margin-top: 60px;
+}
+
+.ft-last-row{
+    background-color: rgb(20, 19, 19);
+    color: white;
+    text-align: center;
+}
+.Btn-colr{
+    background-color: #19a1d6 !important;
+    border-color: #19a1d6;
+    color: white;
+}
+.Ft{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    background-color: rgb(20, 19, 19);
+}
+.Ft-1{
+    width: 100%;
+}
+
+.Ft-1 h2{
+    color: white;
+    margin-top: 20px;
+    /* margin-left: 50px; */
+    text-align: center;
+}
+.ft-heading{
+    color: #19a1d6;
+}
+.Ft-2{
+    width: 70%;
+    margin: 0px auto;
+}
+.Ft-2 h4 {
+    color: #19a1d6;
+    margin-top: 20px;
+    margin-left: 30px
+}
+.Ft-2 ul {
+    list-style: none;
+}
+.Ft-2 ul a {
+    color: white;
+    text-decoration: none;
+}
+.Ft-2 ul a li{
+    text-align: left;
+}
+.Ft-2 ul a:hover{
+    color: #19a1d6;
+}
+
+
+@media screen and (max-width: 300px){
+    body{
+        width: 100%;
+    }
+    #Container{
+        width: 100%;
+    }
+    #Nav-Bar{
+        width: 100%;
+    }
+    .nav-list{
+        width: 100%;
+    }
+    .nav-list-1{
+        width: 100%;
+    }
+    #Main-Section{
+        width: 100%;
+    }
+    #Footer{
+        width: 100%;
+    }
+    #contact{
+        width: 100%;
+    }
+    .Ft{
+        width: 100%;
+    }
+    .Ft-details{
+        width: 100%;
+    }
+    .ft-last-row{
+        width: 100%;
+    }
+}
